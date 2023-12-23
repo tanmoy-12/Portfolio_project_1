@@ -255,8 +255,7 @@ body{
 
 .project-container{
     width: 850px;
-    height: 700px;
-    padding: 0;
+    padding: 40px;
     justify-content: center;
     margin: 40px auto;
 }
@@ -264,7 +263,6 @@ body{
 
 .project-content{
     text-align: left;
-    align-items: left;
     justify-content: left;
     border-radius: 12px ;
     font-weight:800;
@@ -289,6 +287,7 @@ body{
     background: linear-gradient(to right, #f4da72, #715c1d, #766104);
     color: #041536;
     padding: 30px;
+    margin-bottom: 30px;
 }
 
 .project-info{
