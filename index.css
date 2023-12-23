@@ -255,7 +255,7 @@ body{
 
 .project-container{
     width: 850px;
-    padding: 40px;
+    padding: 0px;
     justify-content: center;
     margin: 40px auto;
 }
