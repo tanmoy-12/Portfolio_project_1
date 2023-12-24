@@ -342,6 +342,12 @@ body{
     text-align: center;
 }
 
+.text a{
+    text-decoration: none;
+    color: #263af2;
+    cursor: pointer;
+}
+
 .text span{
     font-size: large;
 }
@@ -353,4 +359,24 @@ body{
     justify-content: center;
     text-align: center;
     margin: 40px auto;
+}
+
+.experience h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text1{
+    width: 900px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 700;
+}
+
+.subject{
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
 }
