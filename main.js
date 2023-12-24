@@ -73,3 +73,15 @@ window.addEventListener('scroll', function() {
       secondElement.classList.remove('hover-effect');
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
