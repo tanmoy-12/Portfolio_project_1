@@ -460,6 +460,10 @@ body{
     font-size: 2rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 .contact-inner{
     background-color: #0078f0;
     color: #ffff;
@@ -469,6 +473,10 @@ body{
     margin: 0px auto;
     padding: 60px;
     font-weight: bold;
+}
+
+.contact-inner a{
+    text-decoration: none;
 }
 
 .contact{
