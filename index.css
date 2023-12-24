@@ -60,6 +60,10 @@ body{
 }
 
 
+#mobile-view{
+    display: none;
+}
+
 .profile-container-left{
     justify-content: center;
     align-items: center;
