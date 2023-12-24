@@ -62,6 +62,7 @@ body{
     align-items: center;
     padding: 30px;
     max-width: 600px;
+    height: 6oopx;
     color: rgb(0, 0, 0)
 }
 
@@ -161,11 +162,28 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 360px;
+    overflow-y: scroll;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
 }
 
 .languages{
-    width: 180px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
     padding: 10px;
+    display: flex;
+    margin: 20px 5px;
+    
+    font-size: x-large; 
+    color: #0c4dd0;
+    font-weight: bold;
+}
+
+.languages img{
+    height: 40px;
+    width: 40px;
 }
 
 .languages h3{
@@ -190,6 +208,8 @@ body{
 
 .education-details-container{
     padding: 0 20px;
+    overflow-y: scroll;
+    height: 480px;
 }
 
 .education-details-content{
@@ -242,6 +262,11 @@ body{
     text-align: left;
 }
 
+.service-content h3{
+    color: #9a1041;
+    font-weight: bold;
+}
+
 .inner-text{
     font-size: large;
 }
@@ -281,7 +306,13 @@ body{
     background: linear-gradient(to right, #f86969, #711d1d, #760404);
     color: #e0e4ed;
     padding: 30px;
+    position: sticky;
+    /* transition: all ease 1s; */
 }
+
+/* #second:hover{
+    transform: translateY(-80%);
+} */
 
 #third{
     background: linear-gradient(to right, #f4da72, #715c1d, #766104);
@@ -313,4 +344,13 @@ body{
 
 .text span{
     font-size: large;
+}
+
+.experience{
+    color: #041536;
+    background: linear-gradient(to right, #dec16a, #e8af54, #e9a75f );
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
 }

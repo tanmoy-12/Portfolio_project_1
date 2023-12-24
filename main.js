@@ -54,3 +54,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
   setTimeout(typeText, 300); // Adjust the delay before starting the typing animation
 });
+
+
+// Add an event listener to handle the scroll
+window.addEventListener('scroll', function() {
+  // Get the #second element
+  var secondElement = document.getElementById('second');
+  
+  // Get the position of the #second element relative to the viewport
+  var rect = secondElement.getBoundingClientRect();
+  
+  // Check if the #second element is in the viewport
+  if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+      // Add the hover-effect class if it's in the viewport
+      secondElement.classList.add('hover-effect');
+  } else {
+      // Remove the hover-effect class if it's not in the viewport
+      secondElement.classList.remove('hover-effect');
+  }
+});
