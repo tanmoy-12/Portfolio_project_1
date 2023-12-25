@@ -429,8 +429,7 @@
         background-color: #0078f0;
         color: #ffff;
         justify-content: center;
-        display: flex;
-        flex-direction: column;
+        display: grid;
         text-align: center;
         margin: 0px auto;
         padding: 40px 0;
@@ -451,11 +450,6 @@
         margin: 10px auto;
         padding: 10px 20px;
         box-shadow: 0 0 8px 2px rgba(61, 61, 62, 0.1);
-    }
-    
-    .contact:hover{
-        color: #041536;
-        background-color: #ffff;
     }
     
     .copyright{
