@@ -268,14 +268,14 @@
         /* background: linear-gradient(to right, #9E7AB8, #f6e1f7, #9E7AB8); */
         justify-content: center;
         text-align: center;
-        margin: 40px auto;
+        margin: 40px 5px;
     }
     
     .project-container{
-        width: 250px;
+        max-width: 390px;
         padding: 0px;
         justify-content: center;
-        margin: 40px auto;
+        margin: 40px 6px;
     }
     
     
@@ -300,12 +300,7 @@
         color: #e0e4ed;
         padding: 30px;
         position: sticky;
-        /* transition: all ease 1s; */
     }
-    
-    /* #second:hover{
-        transform: translateY(-80%);
-    } */
     
     #third{
         background: linear-gradient(to right, #f4da72, #715c1d, #766104);
@@ -329,7 +324,7 @@
     }
     
     .text{
-        width: 900px;
+        max-width: 250px;
         justify-content: center;
         margin: 0 auto;
         text-align: center;
