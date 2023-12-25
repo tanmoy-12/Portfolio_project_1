@@ -383,6 +383,7 @@
         font-weight: 700;
         height: 300px;
         overflow-y: scroll;
+        margin-bottom: 50px;
     }
     
     .certificate-container {
@@ -429,14 +430,15 @@
         color: #ffff;
         justify-content: center;
         display: flex;
+        flex-direction: column;
         text-align: center;
         margin: 0px auto;
-        padding: 60px 0;
+        padding: 40px 0;
         font-weight: bold;
     }
-    
-    .contact-inner a{
-        text-decoration: none;
+
+    .contact-inner h2{
+        font-size: large;
     }
     
     .contact{
@@ -446,8 +448,8 @@
         color: #ffff;
         font-size: small;
         letter-spacing: 0.07em;
-        margin: 0 30px;
-        padding: 10px 80px;
+        margin: 10px auto;
+        padding: 10px 20px;
         box-shadow: 0 0 8px 2px rgba(61, 61, 62, 0.1);
     }
     
