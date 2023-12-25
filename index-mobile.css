@@ -272,10 +272,10 @@
     }
     
     .project-container{
-        max-width: 370px;
+        max-width: 340px;
         padding: 0px;
         justify-content: center;
-        margin: 40px 6px;
+        margin: 40px auto;
     }
     
     
