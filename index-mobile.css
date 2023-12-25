@@ -272,7 +272,7 @@
     }
     
     .project-container{
-        max-width: 340px;
+        max-width: 300px;
         padding: 0px;
         justify-content: center;
         margin: 40px auto;
@@ -285,7 +285,14 @@
         border-radius: 12px ;
         font-weight:800;
         margin: 10px;
-        
+    }
+
+    .project-content h1{
+        font-size: larger;
+    }
+
+    .project-content h3{
+        font-size: medium;
     }
     
     
@@ -310,7 +317,7 @@
     }
     
     .project-info{
-        font-size: large;
+        font-size: small;
     }
     
     
