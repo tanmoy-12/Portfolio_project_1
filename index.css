@@ -356,6 +356,36 @@ body{
     margin: 40px auto;
 }
 
+.google-scholars{
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #95c2ee;
+}
+
+.google-scholars a h4{
+    color: #1f32de;
+    font-size: large;
+    font-weight: bold;
+    padding: 0;
+    margin:  0;
+}
+
+.google-scholars-info{
+    display: flex;
+    padding: 0 20px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.google-scholars-info h4{
+    font-size: larger;
+    font-weight: bold;
+    color: #041536;
+}
+
 .text{
     width: 900px;
     justify-content: center;
