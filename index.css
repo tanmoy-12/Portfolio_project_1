@@ -675,7 +675,7 @@ a{
         margin: 0 42px;
         padding: 30px;
         max-width: 600px;
-        height: 560px;
+        height: 590px;
         color: rgb(0, 0, 0)
     }
     
@@ -1225,7 +1225,7 @@ a{
         justify-content: left;
         margin: 0 auto;
         padding: 10px;
-        max-width: 400px;
+        max-width: 450px;
         height: 580px;
         color: rgb(0, 0, 0)
     }
@@ -1275,7 +1275,7 @@ a{
 
     .profile-container-right1{
         display: grid;
-        width: 483px;
+        width: 500px;
         max-height: 513px;
         justify-content: center;
         align-items: center;
