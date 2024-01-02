@@ -4,6 +4,7 @@ const targetDiv3 = document.getElementById("education-details");
 
 let btn1 = document.getElementById("about");
 btn1.onclick = function () {
+  btn1.style.backgroundColor ="#1f32de";
   targetDiv1.style.display = "block";
   targetDiv2.style.display = "none";
   targetDiv3.style.display = "none";
@@ -11,6 +12,7 @@ btn1.onclick = function () {
 
 let btn2 = document.getElementById("skill");
 btn2.onclick = function () {
+  btn1.style.backgroundColor ="#8490ff";
   targetDiv1.style.display = "none";
   targetDiv2.style.display = "block";
   targetDiv3.style.display = "none";
@@ -18,6 +20,7 @@ btn2.onclick = function () {
 
 let btn3 = document.getElementById("education");
 btn3.onclick = function () {
+  btn1.style.backgroundColor ="#8490ff";
   targetDiv1.style.display = "none";
   targetDiv2.style.display = "none";
   targetDiv3.style.display = "block";
